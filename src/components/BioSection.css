@@ -1,0 +1,30 @@
+.bio-section-container {
+    display: flex;
+    /* background-color: #ffffff; */
+    background-color: lightgray;
+    margin-top: 10px;
+    border-radius: 4px;
+    flex-direction: column;
+    margin: 20px;
+    cursor: pointer;
+    border: none;
+    opacity: 0.8;
+}
+
+.bio-section-content {
+    text-align: center; 
+    margin-top: 10px;
+    color: #410179;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bio-section-title {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #410179;
+}
+
+.bio-section-text {
+    font-size: 1rem; 
+}

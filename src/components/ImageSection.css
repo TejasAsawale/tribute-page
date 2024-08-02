@@ -1,0 +1,18 @@
+.image-section-container {
+    display: center;
+    margin-top: 5px;
+}
+
+.image-section-content {
+    text-align: center;
+}
+
+.image-section-img {
+    max-width: 340px;
+    height: 340px;
+    border-radius: 50%;
+    border: none;
+    padding: 3px;
+}
+
+

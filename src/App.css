@@ -1,38 +1,18 @@
 .App {
-  text-align: center;
+    /* background-image: url('https://inspirechange27.wordpress.com/wp-content/uploads/2018/09/ratan-tata-image-2.jpg?w=1200'); */
+    background-image: url('https://e0.pxfuel.com/wallpapers/250/310/desktop-wallpaper-ratan-tata-tells-snapdeal-s-kunal-bahl-why-he-is-investing-in-startups.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+    /* position: sticky; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    border: none; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
